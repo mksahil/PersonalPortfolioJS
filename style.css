@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: white;
+    background-color: #161627;;
+  
+}
+
+.navbar{
+   
+    display: flex;
+    padding: 30px;
+}
+
+.right-nav{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    justify-content: space-between;
+    
+}
+
+.nav-item{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: blueviolet;
+}
+#logo:hover{
+    color: blueviolet;
+}
+
+.dark-mode {
+    background-color: white;;
+    color: #161627;
+  }
+
+
+.body_items{
+    position: fixed;
+    left: 10%;
+    top:35%;
+    width: 100%;
+   overflow-y: auto;
+   border: 1px solid;
+
+}
+
+.Home_section{
+    width: 60em;
+    top: 20%;
+    display: flex;
+}
+
+.name{
+    font-size: 50px
+}
+.qulification{
+    font-size: 25px
+}
+
+.discription{
+    font-size: large;
+}
+
+.profile_photo img{ 
+    width: 250px;
+    border-radius: 60%;
+}
+.social_links{
+    align-self: center;
+    padding: 85px;
+}
+.linkedin{
+    padding-bottom: 10px;
+}
+
+.about_section{
+    position: fixed;
+    left: 45%;
+    /* padding-top: 100px; */
+}

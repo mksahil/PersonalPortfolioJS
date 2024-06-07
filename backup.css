@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: #161627;
+}
+
+.navbar{
+   
+    display: flex;
+}
+
+.right-nav{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    justify-content: space-between;
+    
+}
+
+.nav-item{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: blueviolet;
+}
+#logo:hover{
+    color: blueviolet;
+}
+
+.dark-mode {
+    background-color: #161627;;
+    color: white;
+  }

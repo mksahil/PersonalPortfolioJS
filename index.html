@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>john Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    function ondarklight() {
+        var element = document.body;
+        ele = element.classList.toggle("dark-mode");
+        if (ele) {
+            document.getElementById('darklight').innerText = 'Dark mode'
+        }
+        else {
+            document.getElementById('darklight').innerText = 'Light mode'
+        }
+    }
+
+</script>
+
+<body>
+    <!-- NAvBAR -->
+    <nav class="navbar">
+        <div id="logo">
+            <h3>John Miller</h3>
+        </div>
+        <ul class="right-nav">
+            <li class="nav-item">Home</li>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Skills</li>
+            <li class="nav-item">Qualification</li>
+            <li class="nav-item">Projects</li>
+            <li class="nav-item">Contact-me</li>
+            <li onclick="ondarklight()" class="nav-item" id="darklight">Light mode</li>
+
+        </ul>
+    </nav>
+
+
+    <div class="body_items">
+        <!-- HOME  -->
+        <div class="Home_section">
+            <div class="social_links">
+                <div class="linkedin">
+                    <a href="">Linkedin</a>
+                </div>
+                <div class="github">
+                    <a href="">GitHub</a>
+                </div>
+            </div>
+            <div class="About">
+
+                <div class="name">
+                    John Miller
+                </div>
+                <div class="qulification">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, non.
+                </div>
+                <div class="discription">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum velit, quam voluptatem sit
+                    <br>similique impedit voluptatibus placeat ea eos? Aliquid.
+
+                </div>
+            </div>
+
+            <div class="profile_photo">
+                <img src="Profile-Picture.jpg" alt="">
+            </div>
+        </div>
+
+
+        <!-- About -->
+        <div class="about_section">
+            <div class="header">
+                <h1>About Me</h1>
+                <div>My Introduction</div>
+            </div>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
