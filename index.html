@@ -28,19 +28,16 @@
             <h3>John Miller</h3>
         </div>
         <ul class="right-nav">
-            <li class="nav-item">Home</li>
-            <li class="nav-item">About</li>
-            <li class="nav-item">Skills</li>
-            <li class="nav-item">Qualification</li>
-            <li class="nav-item">Projects</li>
-            <li class="nav-item">Contact-me</li>
+            <li class="nav-item"><a href="#home">Home</a> </li>
+            <li class="nav-item"> <a href="#projects">Projects</a></li>
+            <li class="nav-item"><a href="#skills">Skills</a> </li>
+            <li class="nav-item"><a href="#contact-me">Contact-me</a> </li>
             <li onclick="ondarklight()" class="nav-item" id="darklight">Light mode</li>
-
         </ul>
     </nav>
 
 
-    <div class="body_items">
+    <div id="home" class="body_items">
         <!-- HOME  -->
         <div class="Home_section">
             <div class="social_links">
@@ -53,12 +50,12 @@
             </div>
             <div class="About">
 
-                <div class="name">
-                    John Miller
-                </div>
-                <div class="qulification">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, non.
-                </div>
+                <h1 class="name">
+                    Hi, My name is John Miller
+                </h1>
+                <h2 class="qulification">
+                    A frontEnd Developer
+                </h2>
                 <div class="discription">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum velit, quam voluptatem sit
                     <br>similique impedit voluptatibus placeat ea eos? Aliquid.
@@ -73,16 +70,94 @@
 
 
         <!-- About -->
-        <div class="about_section">
+        <!-- <div class="about_section">
             <div class="header">
                 <h1>About Me</h1>
                 <div>My Introduction</div>
             </div>
+        </div> -->
+
+
+        <!-- Projects -->
+        <h1 style="margin: 20px;">Projects</h1>
+        <div id="projects" class="projects_cont">
+
+            <div class="project1">
+                <h2>Project1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio tempora molestias
+                    praesentium? <br>
+                    Officia dolores sapiente, provident in tempore repudiandae dignissimos!</p>
+                <div class="skills">
+                    <a href="">HTML</a>
+                    <a href="">CSS</a>
+                    <a href="">JS</a>
+                </div>
+
+                <div class="links">
+                    <a href="">GitHub</a><a href="">live link</a>
+                </div>
+            </div>
+
+
+            <div class="project1">
+                <h2>Project1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio tempora molestias
+                    praesentium? <br>
+                    Officia dolores sapiente, provident in tempore repudiandae dignissimos!</p>
+                <div class="skills">
+                    <a href="">HTML</a>
+                    <a href="">CSS</a>
+                    <a href="">JS</a>
+                </div>
+
+                <div class="links">
+                    <a href="">GitHub</a><a href="">live link</a>
+                </div>
+            </div>
+
+            <div class="project1">
+                <h2>Project1</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit Distinctio tempora molestias
+                    praesentium? <br>
+                    Officia dolores sapiente, provident in tempore repudiandae dignissimos!</p>
+                <div class="skills">
+                    <a href="">HTML</a>
+                    <a href="">CSS</a>
+                    <a href="">JS</a>
+                </div>
+
+                <div class="links">
+                    <a href="">GitHub</a><a href="">live link</a>
+                </div>
+            </div>
+
         </div>
+        <h1 style="margin: 30px;margin-top: 50px;">Skills</h1>
+        <section id="skills" class="skills_section">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
 
 
 
+        </section>
+
+        <h1 style="margin: 30px;margin-top: 50px;">Contact me</h1>
+        <section id="contact-me" class="Contact-me-sectiom">
+            <div class="Email">
+                Email-Me
+            </div>
+
+        </section>
+
+        <footer class="footer">
+            Created By MK sahil
+            <a href="" class="link footer__link">
+            </a>
+        </footer>
     </div>
+
 </body>
 
 </html>
